@@ -1,0 +1,8 @@
+# Versions the system was developed and tested with, on Python 3.8.10 (64-bit, Windows).
+numpy==1.24.4
+pandas==2.0.3
+scipy==1.10.1
+matplotlib==3.7.5
+requests==2.32.4
+opencv-python==4.13.0.92
+pyttsx3==2.99
