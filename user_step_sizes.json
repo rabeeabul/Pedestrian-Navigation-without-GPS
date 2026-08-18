@@ -3,6 +3,30 @@
     "step_size": 0.8,
     "path_length_m": 20.0,
     "steps": 25,
-    "date": "2026-07-12"
+    "date": "2026-17-08"
+  }
+}
+{
+  "2": {
+    "step_size": 0.8,
+    "path_length_m": 20.0,
+    "steps": 24,
+    "date": "2026-08-16"
+  }
+}
+{
+  "3": {
+    "step_size": 0.769,
+    "path_length_m": 10.0,
+    "steps": 13,
+    "date": "2026-08-17"
+  }
+}
+{
+  "4": {
+    "step_size": 0.833,
+    "path_length_m": 10.0,
+    "steps": 12,
+    "date": "2026-08-17"
   }
 }
