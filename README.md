@@ -108,7 +108,5 @@ This project detects and classifies the movements of a person walking indoors (s
 - If steps are missed, lower `FORWARD_STEP_HEIGHT` in `config.py`. If steps are counted that were not taken, raise it. Check the holder is tight first, because a loose phone bounces on its own.
 - If crab steps are detected as forward steps, raise `CRAB_RATIO_TO_FORWARD`.
 - If left and right come out reversed, flip `POSITIVE_GYRO_Y_IS_LEFT` for turns or `CRAB_LEFT_IS_POSITIVE_X` for crab steps.
-- Backward walking needs at least two steps in a row, with a turn or a short pause before it, otherwise it is read as forward.
 - Short flights of stairs are not detected. The barometer noise is about the size of one stair, so only a flight of roughly four stairs or more registers.
-- If the live plots slow the program down and steps are missed, raise `PLOT_UPDATE_INTERVAL` in `config.py`.
 - Make sure the mobile device is securely mounted on the chest in portrait orientation for accurate data capture.
